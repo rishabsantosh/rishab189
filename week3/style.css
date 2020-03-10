@@ -115,12 +115,11 @@ h1{
 
 @media(max-width: 500px){
     .box1{
-        height:70px;
-        width: 80%;
+        width:40%;/*Why did it go to the extreme right?*/
+        height: 70px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding-left:150px;
         flex-direction: column;
     }
 }

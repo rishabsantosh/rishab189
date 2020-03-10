@@ -1,0 +1,53 @@
+
+/* width is selected to 100% default*/
+
+.box{
+    background-color: white;
+    height:70px;
+    widows: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    margin:0 auto;
+    align-items: center;/*keeps in the centre away from the border*/
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.box1{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    width:30%;
+    height:60px;
+    border: 2px solid red;
+    align-items: center;
+}
+
+.box1:hover{
+    box-shadow: 0px 0px 10px white;
+}
+
+.box1:last-child{
+    background-color: oldlace;
+}
+
+a{
+    text-decoration: none;/*removes the underline*/
+    height:50px;
+    width:100%;
+    align-items: center;/*along y axis*/
+    justify-content: center;/* along x axis*/
+    display: flex;
+}
+
+.rightmenu{
+    background-color: black;
+    width: 40%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media {max}
